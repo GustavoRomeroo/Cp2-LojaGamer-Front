@@ -1,0 +1,71 @@
+PASSO A PASSO DE ENTREGA - PROJETO LOJA GAMER
+
+1. Criar o repositório no GitHub
+- Entre no GitHub.
+- Clique em New repository.
+- Nome sugerido: cp3-loja-gamer
+- Marque como Public.
+- Clique em Create repository.
+
+2. Fazer no mínimo 10 commits semânticos
+Sugestão de commits:
+1. feat: cria estrutura inicial do projeto
+2. feat: adiciona página home com hero
+3. feat: cria menu de navegação
+4. feat: adiciona página de portifólio
+5. feat: cria cards de produtos gamer
+6. feat: adiciona tabela de preços e promoções
+7. feat: cria página sobre
+8. feat: cria formulário de contato
+9. feat: adiciona validação com javascript
+10. style: finaliza responsividade e paleta gamer
+
+3. Subir o projeto para o GitHub
+No terminal dentro da pasta do projeto:
+git init
+git add .
+git commit -m "feat: cria estrutura inicial do projeto"
+git branch -M main
+git remote add origin LINK_DO_REPOSITORIO
+git push -u origin main
+
+Depois continue fazendo alterações e commits:
+git add .
+git commit -m "mensagem semântica"
+git push
+
+4. Ativar o GitHub Pages
+- Entre no repositório.
+- Vá em Settings.
+- Clique em Pages.
+- Em Branch, escolha main.
+- Pasta: /root.
+- Clique em Save.
+- Copie o link gerado e cole no arquivo equipes.txt.
+
+5. Compactar a pasta do projeto
+- Clique com o botão direito na pasta do projeto.
+- Escolha Enviar para > Pasta compactada.
+- Renomeie o arquivo para cp2.zip.
+
+6. Gravar vídeo curto
+Mostre rapidamente:
+- Site funcionando no navegador.
+- Menu abrindo as páginas.
+- Página de portifólio com cards e tabela.
+- Página sobre.
+- Página contato com formulário.
+- Estrutura de pastas no VSCode.
+- Arquivos index.html, estilo.css e script.js.
+
+7. Postagem no LinkedIn
+Use o texto abaixo:
+
+Olá, rede! Venho apresentar meu projeto orientado pelo Professor @Wellington Cidade Silva.
+
+O projeto é um site dinâmico de Loja Gamer, desenvolvido para amantes do universo gamer.
+
+O projeto foi realizado por @nome, @nome e as tecnologias utilizadas foram:
+#html #css #javascript #gitbash #github
+
+@fiap

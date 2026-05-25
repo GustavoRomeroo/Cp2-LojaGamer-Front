@@ -1,0 +1,40 @@
+COMANDOS PARA FAZER OS 10 COMMITS SEMÂNTICOS
+
+Depois de subir/descompactar o projeto no seu computador dentro da pasta do repositório, rode no Git Bash:
+
+git init
+git branch -M main
+git add index.html
+git commit -m "feat: cria pagina home com hero"
+
+git add pages/portifolio.html
+git commit -m "feat: adiciona pagina de portfolio com cards"
+
+git add pages/sobre.html
+git commit -m "feat: cria pagina sobre da loja gamer"
+
+git add pages/contato.html
+git commit -m "feat: adiciona formulario de contato"
+
+git add src/css/estilo.css
+git commit -m "style: adiciona identidade visual gamer"
+
+git add src/js/script.js
+git commit -m "feat: adiciona interacoes com javascript"
+
+git add equipes.txt
+git commit -m "docs: atualiza dados da equipe e link do projeto"
+
+git add PASSO_A_PASSO_ENTREGA.txt
+git commit -m "docs: adiciona passo a passo de entrega"
+
+git add .
+git commit -m "refactor: organiza estrutura final de pastas"
+
+git add .
+git commit -m "chore: finaliza projeto para entrega"
+
+Depois conecte ao GitHub:
+
+git remote add origin https://github.com/SEU-USUARIO/cp2-loja-gamer.git
+git push -u origin main

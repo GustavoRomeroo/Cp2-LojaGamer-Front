@@ -1,0 +1,10 @@
+Nome do projeto: GamerZone
+Tema: Loja Gamer
+
+Integrantes:
+Gustavo Gaviolli Romero - RM: 571271
+
+Professor: Wellington Cidade Silva
+Instituição: FIAP
+
+Link do projeto hospedado: https://gustavogaviolli.github.io/cp2-loja-gamer/

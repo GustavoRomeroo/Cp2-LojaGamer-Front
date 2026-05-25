@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GamerZone | Contato</title>
+  <link rel="icon" type="image/png" href="../src/assets/img/icone-gamer.png">
+  <link rel="stylesheet" href="../src/css/estilo.css">
+</head>
+<body>
+  <header class="cabecalho">
+    <nav class="navbar" aria-label="Menu principal">
+      <a href="../index.html" class="logo"><img src="../src/assets/img/icone-gamer.png" alt="Ícone gamer">Gamer<span>Zone</span></a>
+      <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+      <ul class="menu">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="portifolio.html">Portifólio</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html" class="ativo">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="pagina-topo">
+      <h1>Contato</h1>
+      <p>Fale com a GamerZone e peça ajuda para montar seu setup.</p>
+    </section>
+
+    <section class="contato-area">
+      <form class="formulario" id="formContato">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+
+        <label for="mensagem">Descrição</label>
+        <textarea id="mensagem" name="mensagem" rows="6" placeholder="Digite sua mensagem"></textarea>
+
+        <button type="submit" class="btn primario">Enviar</button>
+        <p id="mensagemForm" class="mensagem-form"></p>
+      </form>
+
+      <aside class="contato-info">
+        <h2>Atendimento</h2>
+        <p>Telefone: (11) 99999-9999</p>
+        <p>E-mail: contato@gamerzone.com.br</p>
+        <p>Horário: Segunda a sexta, das 9h às 18h.</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>Telefone: (11) 99999-9999 | E-mail: contato@gamerzone.com.br</p>
+    <p>Instagram: @gamerzone | TikTok: @gamerzone | YouTube: GamerZone</p>
+    <p>&copy; <span class="ano"></span> GamerZone. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="../src/js/script.js"></script>
+</body>
+</html>
